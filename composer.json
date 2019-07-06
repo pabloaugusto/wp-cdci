@@ -1,0 +1,38 @@
+{
+    "name": "pabloaugusto/wp-cdci",
+    "description": "CD/CI Test with wordpress",
+    "type": "project",
+    "require": {
+        "php": ">=7.2",
+        "johnpbloch/wordpress": "*",
+        "composer/installers": "*",
+        "wp-cli/wp-cli": "*",
+        "wpackagist-theme/hello-elementor":"*",
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/broken-link-checker": "*",
+        "wpackagist-plugin/disable-gutenberg": "*",
+        "wpackagist-plugin/google-apps-login": "*",
+        "wpackagist-plugin/duracelltomi-google-tag-manager": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/wp-smushit": "*",
+        "wpackagist-plugin/theme-check": "*",
+        "wpackagist-plugin/updraftplus": "*",
+        "wpackagist-plugin/wordpress-seo":"*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "*",
+        "dealerdirect/phpcodesniffer-composer-installer":"*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Augusto",
+            "email": "pablo@pabloaugusto.com"
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "$HOME/projects/wp"
+    }
+
+}
